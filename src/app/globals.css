@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #14201a;
+  --color-ink-muted: #4a5750;
+  --color-paper: #ffffff;
+  --color-cream: #f7f3ea;
+  --color-cream-deep: #ece4d2;
+  --color-rule: #d9d2c0;
+  --color-forest: #1c4a2f;
+  --color-forest-deep: #133520;
+  --color-forest-soft: #2d6a44;
+  --color-gold: #a78a3d;
+}
+
+@theme inline {
+  --color-background: var(--color-paper);
+  --color-foreground: var(--color-ink);
+  --color-muted: var(--color-ink-muted);
+  --color-cream: var(--color-cream);
+  --color-cream-deep: var(--color-cream-deep);
+  --color-rule: var(--color-rule);
+  --color-forest: var(--color-forest);
+  --color-forest-deep: var(--color-forest-deep);
+  --color-forest-soft: var(--color-forest-soft);
+  --color-gold: var(--color-gold);
+  --font-serif: var(--font-serif);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display), Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--color-forest-deep);
+}
+
+h1 { font-size: clamp(2.25rem, 4vw, 3.25rem); line-height: 1.1; }
+h2 { font-size: clamp(1.75rem, 2.6vw, 2.25rem); line-height: 1.2; }
+h3 { font-size: 1.375rem; line-height: 1.3; }
+
+.eyebrow {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-forest-soft);
+}
+
+.rule {
+  display: inline-block;
+  width: 3rem;
+  height: 1px;
+  background: var(--color-gold);
+  vertical-align: middle;
+  margin: 0 0.75rem;
+}
+
+.prose-classical p {
+  margin-bottom: 1.1em;
+}
+.prose-classical p:last-child {
+  margin-bottom: 0;
+}
+.prose-classical a {
+  color: var(--color-forest);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.prose-classical a:hover {
+  color: var(--color-forest-deep);
+}
+.prose-classical blockquote {
+  border-left: 2px solid var(--color-gold);
+  padding-left: 1.25rem;
+  font-style: italic;
+  color: var(--color-ink-muted);
+  margin: 1.5rem 0;
+}

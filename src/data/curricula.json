@@ -1,0 +1,102 @@
+{
+  "rootFolderId": "1LwJv1V-k4wAkg1h6ljkZ4ckIruBRiJ58",
+  "fetchedAt": "2026-04-27T15:04:25.857Z",
+  "folders": [
+    {
+      "slug": "pre-class-information",
+      "name": "Pre-class Information",
+      "driveId": "1-Y8IbUuI5ysWrKNKBZL6hYGN7JMZGgn-",
+      "group": "support",
+      "level": 0,
+      "kind": "Pre-Class Information"
+    },
+    {
+      "slug": "spanish-curriculum",
+      "name": "Spanish Curriculum",
+      "driveId": "1VO5KbzAutCf1xpdavNjUiTbTG6CbBlDU",
+      "group": "language",
+      "level": 0,
+      "kind": "Spanish Curriculum"
+    },
+    {
+      "slug": "student-forms",
+      "name": "Student Forms",
+      "driveId": "1_8TgfvZp2HJPRvOPWXlQxEdBKX49Q-hL",
+      "group": "support",
+      "level": 1,
+      "kind": "Student Forms"
+    },
+    {
+      "slug": "other-documents",
+      "name": "Other Documents",
+      "driveId": "1is5Tjx8-DnLqtwsSMjkrBueC5lcIzFH_",
+      "group": "other",
+      "level": 99,
+      "kind": "Reference"
+    },
+    {
+      "slug": "201-229-associates-level",
+      "name": "201-229 Associates Level",
+      "driveId": "17YaosN7P0nAeccfFqaYlxDahBpzALjUC",
+      "group": "degree",
+      "level": 200,
+      "kind": "Associate"
+    },
+    {
+      "slug": "301-310-pre-graduate-level",
+      "name": "301-310 Pre-graduate Level",
+      "driveId": "1XWXNJVzex5_CEa2C0p8PplHzlG5tYAco",
+      "group": "degree",
+      "level": 300,
+      "kind": "Pre-Graduate"
+    },
+    {
+      "slug": "401-409-bachelor-level",
+      "name": "401-409 Bachelor Level",
+      "driveId": "17QxpydhlMP_BGJQOpSA_U9DpeU1F2yHM",
+      "group": "degree",
+      "level": 400,
+      "kind": "Bachelor"
+    },
+    {
+      "slug": "master-of-divinity-level",
+      "name": "Master of Divinity Level",
+      "driveId": "11ry0BL85rP4ri3eAOgmkhCS0sSd1aKh7",
+      "group": "degree",
+      "level": 450,
+      "kind": "Master of Divinity"
+    },
+    {
+      "slug": "501-505-master-level",
+      "name": "501-505 Master Level",
+      "driveId": "1U4yRR_cCs3J_gMrnTwBgZS3FQ7iAeDyo",
+      "group": "degree",
+      "level": 500,
+      "kind": "Master"
+    },
+    {
+      "slug": "accelerated-masters-program",
+      "name": "Accelerated Masters Program",
+      "driveId": "1DBxJz499ZTAR5FSwxbMaJL_-ippTlabw",
+      "group": "degree",
+      "level": 550,
+      "kind": "Accelerated Master's"
+    },
+    {
+      "slug": "601-608-doctor-level",
+      "name": "601-608 Doctor Level",
+      "driveId": "1OdfZP3BFjCAJrgtsoeysIsbCp-dWKL1b",
+      "group": "degree",
+      "level": 600,
+      "kind": "Doctorate"
+    },
+    {
+      "slug": "701-post-doctorate-work",
+      "name": "701 Post-Doctorate Work",
+      "driveId": "1cNCBNwQUfuh1Kns65wNgUBhS2RvqMA-Z",
+      "group": "degree",
+      "level": 700,
+      "kind": "Post-Doctorate"
+    }
+  ]
+}
