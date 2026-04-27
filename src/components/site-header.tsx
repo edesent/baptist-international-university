@@ -21,7 +21,7 @@ export function SiteHeader() {
     <header className="border-b border-[var(--color-rule)] bg-[var(--color-paper)]">
       <div className="bg-[var(--color-forest-deep)] text-white/90">
         <div className="mx-auto max-w-6xl px-6 py-1.5 text-[0.72rem] tracking-[0.18em] uppercase font-sans flex items-center justify-between">
-          <span>Established 1977 · Authorized Version 1611</span>
+          <span>Established 1977 · Authorized King James Version 1611</span>
           <span className="hidden sm:inline">508-966-0873 · Bellingham, MA</span>
         </div>
       </div>

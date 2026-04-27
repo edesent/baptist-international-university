@@ -51,7 +51,7 @@ export default function GettingStartedPage() {
       />
 
       <Section tone="paper">
-        <Container size="narrow" className="prose-classical">
+        <Container size="prose" className="prose-classical">
           <p>
             We give it freely because we received it freely. The Scriptures
             command in Proverbs, Matthew, Romans, and Acts that the gospel and

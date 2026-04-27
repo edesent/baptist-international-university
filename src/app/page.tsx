@@ -30,7 +30,7 @@ export default function HomePage() {
         <Container className="relative py-20 md:py-28 grid gap-12 md:grid-cols-[1.2fr_1fr] items-center">
           <div>
             <div className="eyebrow mb-5">
-              Established 1977 <span className="rule" /> Authorized Version 1611
+              Established 1977 <span className="rule" /> Authorized King James Version 1611
             </div>
             <h1 className="font-display">
               Free Baptist curricula for the church, the classroom, and the mission field.

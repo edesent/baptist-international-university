@@ -86,7 +86,7 @@ export function SiteFooter() {
           </span>
           <span>
             Accredited by ACI (Accrediting Commission International) ·
-            Authorized Version 1611
+            Authorized King James Version 1611
           </span>
         </div>
       </div>

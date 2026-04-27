@@ -54,11 +54,11 @@ export default function StaffPage() {
       </Section>
 
       <Section tone="cream">
-        <Container size="narrow">
-          <div className="text-center">
+        <Container size="prose">
+          <div>
             <div className="eyebrow mb-4">Accreditation</div>
             <h2>Accredited by ACI. Independent of the state.</h2>
-            <div className="mt-5 h-px w-12 bg-[var(--color-gold)] mx-auto" />
+            <div className="mt-5 h-px w-12 bg-[var(--color-gold)]" />
           </div>
           <div className="prose-classical mt-10">
             <p>

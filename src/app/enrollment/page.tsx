@@ -20,7 +20,7 @@ export default function EnrollmentPage() {
       />
 
       <Section tone="paper">
-        <Container size="narrow" className="prose-classical">
+        <Container size="prose" className="prose-classical">
           <p>
             Anyone is welcome to access the curricula without registering — the
             syllabi, manuals, and reading are freely available and require no
@@ -39,7 +39,7 @@ export default function EnrollmentPage() {
       </Section>
 
       <Section tone="cream" className="!py-12 md:!py-14">
-        <Container size="narrow">
+        <Container size="prose">
           <div className="grid gap-5 sm:grid-cols-[auto_1fr] items-start bg-white border border-[var(--color-rule)] p-7">
             <span className="font-display text-[var(--color-gold)] text-3xl leading-none">
               ✦
@@ -99,10 +99,10 @@ export default function EnrollmentPage() {
       </Section>
 
       <Section tone="cream">
-        <Container size="narrow" className="text-center">
+        <Container size="prose">
           <div className="eyebrow mb-3">Questions</div>
           <h2>We answer every applicant.</h2>
-          <div className="mt-5 h-px w-12 bg-[var(--color-gold)] mx-auto" />
+          <div className="mt-5 h-px w-12 bg-[var(--color-gold)]" />
           <p className="mt-6 text-[var(--color-ink-muted)] leading-relaxed">
             Call or write the seminary if you would like to speak with someone
             before applying.

@@ -7,8 +7,15 @@ export function Container({
 }: {
   children: React.ReactNode;
   className?: string;
-  size?: "default" | "narrow" | "wide";
+  size?: "default" | "narrow" | "prose" | "wide";
 }) {
+  if (size === "prose") {
+    return (
+      <div className="mx-auto max-w-6xl px-6">
+        <div className={cn("max-w-3xl", className)}>{children}</div>
+      </div>
+    );
+  }
   const max =
     size === "narrow"
       ? "max-w-3xl"
@@ -55,15 +62,17 @@ export function PageHeader({
 }) {
   return (
     <div className="border-b border-[var(--color-rule)] bg-[var(--color-cream)]">
-      <Container className="py-14 md:py-20" size="narrow">
-        {eyebrow && <div className="eyebrow mb-4">{eyebrow}</div>}
-        <h1 className="font-display">{title}</h1>
-        {intro && (
-          <p className="mt-5 text-lg text-[var(--color-ink-muted)] leading-relaxed">
-            {intro}
-          </p>
-        )}
-        <div className="mt-6 h-px w-16 bg-[var(--color-gold)]" />
+      <Container className="py-14 md:py-20">
+        <div className="max-w-3xl">
+          {eyebrow && <div className="eyebrow mb-4">{eyebrow}</div>}
+          <h1 className="font-display">{title}</h1>
+          {intro && (
+            <p className="mt-5 text-lg text-[var(--color-ink-muted)] leading-relaxed">
+              {intro}
+            </p>
+          )}
+          <div className="mt-6 h-px w-16 bg-[var(--color-gold)]" />
+        </div>
       </Container>
     </div>
   );
