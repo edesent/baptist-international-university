@@ -57,16 +57,6 @@ export function SiteFooter() {
             <li><Link href="/staff-and-accreditation" className="hover:text-[var(--color-gold)]">Staff & Accreditation</Link></li>
             <li>
               <a
-                href="https://universidadbautista.org/spanish-curricula.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-[var(--color-gold)]"
-              >
-                Currículo en Español
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://bellinghambbc.com/give/"
                 target="_blank"
                 rel="noopener noreferrer"
