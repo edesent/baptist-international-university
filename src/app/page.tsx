@@ -18,6 +18,19 @@ export default function HomePage() {
   return (
     <>
       <section className="relative bg-[var(--color-cream)] border-b border-[var(--color-rule)] overflow-hidden">
+        <Image
+          src="/biu-hero-bg.jpeg"
+          alt=""
+          aria-hidden
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-20"
+        />
+        <div
+          aria-hidden
+          className="absolute inset-0 bg-[var(--color-cream)]/70"
+        />
         <div
           aria-hidden
           className="absolute inset-0 opacity-[0.04]"
