@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container, Section, PageHeader } from "@/components/section";
 
 export const metadata = {
@@ -11,12 +12,14 @@ const STAFF = [
     name: "N. Sebastian Desent",
     credentials: "Ph.D., Th.D., D.D.",
     role: "President",
+    image: "/Nash-2024.jpg",
     body: "Dr. Desent has led Historic Baptist Church in North Kingstown, Rhode Island since its founding in 1991, where he established the Rhode Island Baptist Seminary that same year. In 2023 he expanded the university to Peru, where he serves as pastor of First Baptist Church of Pachacamac in Lima.",
   },
   {
     name: "Michael E. Carrier",
     credentials: "Ph.D.",
     role: "Vice President · Dean of the English Division",
+    image: "/IMG_3618-1-scaled.jpeg",
     body: "Dr. Carrier serves as president of Baptist International University of Bellingham and pastors Bellingham Bible Baptist Church in Massachusetts. He earned his doctorate from the university on January 26, 2025.",
   },
 ];
@@ -35,19 +38,30 @@ export default function StaffPage() {
           {STAFF.map((s) => (
             <article
               key={s.name}
-              className="bg-[var(--color-cream)] border border-[var(--color-rule)] p-8 md:p-10"
+              className="bg-[var(--color-cream)] border border-[var(--color-rule)] overflow-hidden flex flex-col"
             >
-              <div className="eyebrow mb-3">{s.role}</div>
-              <h2 className="!text-[var(--color-forest-deep)] !text-[1.7rem]">
-                {s.name}
-              </h2>
-              <div className="mt-1 font-serif italic text-[var(--color-ink-muted)]">
-                {s.credentials}
+              <div className="relative aspect-[4/5] bg-[var(--color-paper)]">
+                <Image
+                  src={s.image}
+                  alt={`Portrait of ${s.name}`}
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover"
+                />
               </div>
-              <div className="mt-5 h-px w-12 bg-[var(--color-gold)]" />
-              <p className="mt-6 text-[var(--color-ink)] leading-relaxed">
-                {s.body}
-              </p>
+              <div className="p-8 md:p-10">
+                <div className="eyebrow mb-3">{s.role}</div>
+                <h2 className="!text-[var(--color-forest-deep)] !text-[1.7rem]">
+                  {s.name}
+                </h2>
+                <div className="mt-1 font-serif italic text-[var(--color-ink-muted)]">
+                  {s.credentials}
+                </div>
+                <div className="mt-5 h-px w-12 bg-[var(--color-gold)]" />
+                <p className="mt-6 text-[var(--color-ink)] leading-relaxed">
+                  {s.body}
+                </p>
+              </div>
             </article>
           ))}
         </Container>
