@@ -25,11 +25,11 @@ export default function HomePage() {
           fill
           priority
           sizes="100vw"
-          className="object-cover opacity-20"
+          className="object-cover opacity-35"
         />
         <div
           aria-hidden
-          className="absolute inset-0 bg-[var(--color-cream)]/70"
+          className="absolute inset-0 bg-[var(--color-cream)]/55"
         />
         <div
           aria-hidden
