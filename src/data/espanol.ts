@@ -327,3 +327,10 @@ export const TRANSLATED_COUNT = LEVELS.reduce(
   (n, l) => n + l.classes.filter((c) => c.file.endsWith(".pdf")).length,
   0,
 );
+
+export const ZIP_URL =
+  "/descargas/universidad-bautista-internacional-espanol.zip";
+
+export const ZIP_KB = Object.values(fileMeta).reduce((n, f) => n + f.kb, 0);
+
+export const FILE_COUNT = Object.keys(fileMeta).length;
