@@ -11,6 +11,7 @@ const NAV = [
   { href: "/curricula", label: "Curricula" },
   { href: "/enrollment", label: "Enrollment" },
   { href: "/staff-and-accreditation", label: "Staff & Accreditation" },
+  { href: "/espanol", label: "Español" },
 ];
 
 export function SiteHeader() {

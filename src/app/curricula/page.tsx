@@ -137,7 +137,11 @@ export default function CurriculaPage() {
                 {[...languages, ...other].map((f) => (
                   <FolderCard
                     key={f.slug}
-                    href={`/curricula/${f.slug}`}
+                    href={
+                      f.kind === "Spanish Curriculum"
+                        ? "/espanol"
+                        : `/curricula/${f.slug}`
+                    }
                     kind={f.kind}
                     name={f.name}
                   />
